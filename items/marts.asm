@@ -44,11 +44,15 @@ MartsEnd
 
 
 CherrygroveMart: ; 160ed
-	db 4 ; # items
-	db POTION
-	db ANTIDOTE
-	db PARLYZ_HEAL
-	db AWAKENING
+	db 8 ; # items
+	db EXP_SHARE
+	db LUM_BERRY
+	db LEMONADE
+	db DRAGON_SCALE
+	db RAZOR_CLAW
+	db LEAF_STONE
+	db FIRE_STONE
+	db SHINY_STONE
 	db -1
 ; 160f3
 
