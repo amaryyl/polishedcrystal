@@ -649,10 +649,10 @@ VulpixEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, EMBER
 	db 4, GROWL ; Tail Whip → new move
-	db 7, ROAR
-	db 9, ASTONISH ; Baby-Doll Eyes → new move
-	db 10, QUICK_ATTACK
-	db 12, CONFUSE_RAY
+	db 7, FLAMETHROWER
+	db 9, EXTRASENSORY ; Baby-Doll Eyes → new move
+	db 10, SHADOW_BALL
+	db 12, FIRE_BLAST
 	db 15, FIRE_SPIN
 	db 18, NIGHT_SHADE ; Payback → new move
 	db 20, WILL_O_WISP
@@ -761,9 +761,9 @@ OddishEvosAttacks:
 	db 1, GROWTH
 	db 5, LEECH_SEED ; Sweet Scent → event move
 	db 9, ACID
-	db 13, POISONPOWDER
-	db 14, STUN_SPORE
-	db 15, SLEEP_POWDER
+	db 13, PETAL_DANCE
+	db 14, GIGA_DRAIN
+	db 15, MOONBLAST
 	db 19, MEGA_DRAIN
 	db 23, CHARM ; Lucky Chant → egg move
 	db 27, MOONLIGHT
@@ -2199,10 +2199,10 @@ HorseaEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, WATER_GUN ; Bubble → similar move
 	db 5, SMOKESCREEN
-	db 9, LEER
-	db 13, BUBBLE_BEAM ; Water Gun → Bubble Beam
-	db 17, TWISTER
-	db 21, WATER_PULSE ; Bubble Beam → TM move
+	db 9, ICE_BEAM
+	db 13, SURF ; Water Gun → Bubble Beam
+	db 17, DRAGON_PULSE
+	db 21, HYDRO_PUMP ; Bubble Beam → TM move
 	db 26, FOCUS_ENERGY
 	db 31, OUTRAGE ; Brine → HGSS tutor move
 	db 36, AGILITY
@@ -2521,7 +2521,7 @@ EeveeEvosAttacks:
 	db 1, TACKLE
 	db 1, LEER ; Tail Whip → similar move
 	db 5, SAND_ATTACK
-	db 9, SING ; Baby-Doll Eyes → event move
+	db 9, MOONBLAST ; Baby-Doll Eyes → event move
 	db 10, SWIFT
 	db 13, QUICK_ATTACK
 	db 17, BITE
@@ -4133,10 +4133,10 @@ SneaselEvosAttacks:
 	db 1, SCRATCH
 	db 1, LEER
 	db 1, BITE ; Taunt → egg move
-	db 8, QUICK_ATTACK
-	db 10, FEINT_ATTACK
-	db 14, ICE_SHARD ; Icy Wind → Ice Shard
-	db 16, FURY_SWIPES
+	db 8, SLASH
+	db 10, CRUNCH
+	db 14, ICE_BEAM ; Icy Wind → Ice Shard
+	db 16, BLIZZARD
 	db 20, AGILITY
 	db 22, METAL_CLAW
 	db 25, HONE_CLAWS
@@ -4396,10 +4396,10 @@ SkarmoryEvosAttacks:
 	db 1, LEER
 	db 1, PECK
 	db 6, SAND_ATTACK
-	db 9, METAL_CLAW
-	db 12, FURY_CUTTER ; Air Cutter → event move
-	db 17, FURY_ATTACK
-	db 20, DRILL_PECK ; Feint → egg move
+	db 9, STEEL_WING
+	db 12, EARTHQUAKE ; Air Cutter → event move
+	db 17, NIGHT_SLASH
+	db 20, AIR_SLASH ; Feint → egg move
 	db 23, SWIFT
 	db 28, SPIKES
 	db 31, AGILITY
@@ -4871,9 +4871,9 @@ SylveonEvosAttacks:
 	db 1, FAIRY_WIND ; evolution move
 	db 5, SAND_ATTACK
 	db 9, GROWL ; Baby-Doll Eyes → similar move
-	db 13, QUICK_ATTACK
-	db 17, SWIFT
-	db 20, DRAIN_KISS
+	db 13, DRAIN_KISS
+	db 17, PSYCHIC
+	db 20, SHADOW_BALL
 	db 25, HEAL_BELL ; Skill Swap → HGSS tutor move
 	db 29, CALM_MIND ; Misty Terrain → TM move
 	db 33, LIGHT_SCREEN
