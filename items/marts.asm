@@ -44,7 +44,7 @@ MartsEnd
 
 
 CherrygroveMart: ; 160ed
-	db 8 ; # items
+	db 15 ; # items
 	db EXP_SHARE
 	db LUM_BERRY
 	db LEMONADE
@@ -53,6 +53,13 @@ CherrygroveMart: ; 160ed
 	db LEAF_STONE
 	db FIRE_STONE
 	db SHINY_STONE
+	db MASTER_BALL
+	db LOVE_BALL
+	db FAST_BALL
+	db NEST_BALL
+	db MOON_BALL
+	db LUXURY_BALL
+	db DIVE_BALL
 	db -1
 ; 160f3
 
